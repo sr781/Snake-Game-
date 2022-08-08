@@ -1,6 +1,10 @@
 # Snake-Game
 A Snake Game created in Python with a slight twist! Added turtles. A golden turtle gives 5 points whereas a black turtle takes away 5 points. The pictures below show the game being played. The colour changes every 5 points.
-
+#
+How to run:
+(1) Download repository as a zip file
+(2) Use an IDE to open file (This program was created on Pycharm)
+(3) Run from main
 
 #
 
