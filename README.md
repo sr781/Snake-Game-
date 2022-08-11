@@ -1,5 +1,7 @@
 # Snake-Game
 A Snake Game created in Python with a slight twist! Added turtles. A golden turtle gives 5 points whereas a black turtle takes away 5 points. The pictures below show the game being played. The colour changes every 5 points.
+
+The highscore is contained within a text file. This is so the data is not lost when the game ends.
 #
 How to run:
 
@@ -16,18 +18,22 @@ How to run:
 Figure 1: The message shown when the snake game is first run
 #
 #
-![Capture2](https://user-images.githubusercontent.com/96390217/183489110-476d1fdd-6279-4dd4-ac32-a8588c0b830e.PNG)
+![image](https://user-images.githubusercontent.com/96390217/184227445-e34ecf55-89e8-431d-a85f-ff2c7366b529.png)
 
-Figure 2: Shows the snake as well as the golden turtle and blue food
+
+Figure 2: Shows the snake as well as a black turtle
 #
 #
 
-![Capture3](https://user-images.githubusercontent.com/96390217/183489123-05414226-a0b1-4bfc-bcf1-3884b448cbf3.PNG)
+![image](https://user-images.githubusercontent.com/96390217/184227704-27b890fb-87f7-430c-8771-10e235cc2ca0.png)
 
-Figure 3: Shows the black turtle
+Figure 3: When the game is reloaded, the high score is saved
 #
 #
 
-![Capture4](https://user-images.githubusercontent.com/96390217/183489129-e9a934a4-fc20-4a03-8cc4-96c4a0cd26e2.PNG)
+![image](https://user-images.githubusercontent.com/96390217/184227942-c2c13d7a-70df-4a58-b1f8-3209fb70de38.png)
 
-Figure 4: When the game ends, the game over prompt is shown
+Figure 4: The high score written in the text file
+
+
+
