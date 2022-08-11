@@ -54,16 +54,15 @@ while game_is_on:
         black_turtle.respawn_blk()
         score.scoreboard(-5)
     if score.score < 0:  # If your score falls below 0, the game ends
-        game_is_on = False
+        snake.reset()
         score.game_over()
 
     if snake.snake_body[0].xcor() > 280 or snake.snake_body[0].xcor() < -280 or snake.snake_body[0].ycor() > 280 or snake.snake_body[0].ycor() < -280:
-        game_is_on = False   # If the snake touches one of the boundaries, this boolean value is set as "False" and the game ends
-        score.game_over()  # This method shows the "game over" text
-
+        score.game_over()
+        snake.reset()
     for segment in snake.snake_body[1:]:
         if snake.snake_body[0].distance(segment) < 10:  # If any other the snake segments touch each other, the game ends
-            game_is_on = False
+
             score.game_over()
 
 screen.exitonclick()
